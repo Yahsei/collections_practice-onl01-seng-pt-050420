@@ -44,4 +44,6 @@ def add_s(array)
       bodypart
     else 
       bodypart + "s"
-    
+    end
+  end
+  
