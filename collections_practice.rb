@@ -24,7 +24,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |word|
+  array.each do |word| #pipes variable will change letter
   word[2] = "$"
   end
 end
