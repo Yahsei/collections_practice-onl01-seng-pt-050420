@@ -1,6 +1,7 @@
 def sort_array_asc(array)
   integers = [1, 3, 2, 4]
-  integers.sort do 
+  integers.sort do |a, b|
+    a <=> b
   end
 end
   
