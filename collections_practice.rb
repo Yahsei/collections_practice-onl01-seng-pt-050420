@@ -29,4 +29,4 @@ end
 
 def find_a(array)
   array.start_with? do |word|
-  |
+  word[0] = a
