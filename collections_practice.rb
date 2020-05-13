@@ -28,8 +28,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find_all do |word|
+  array.find_all do |word| #select_all didn't work
   word[0] == "a"
   end
 end
 end
+
+def sum_array(array)
+  
