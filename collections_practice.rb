@@ -39,8 +39,9 @@ def sum_array(array)
   end
   
 def add_s(array)
-  array.collect do |bodypart|
+  array.collect do |bodypart| #feet is plural and index 1
     if array[1] == bodypart
       bodypart
     else 
+      bodypart + "s"
     
