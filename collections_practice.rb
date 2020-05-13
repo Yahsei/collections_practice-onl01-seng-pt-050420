@@ -42,5 +42,5 @@ def add_s(array)
   array.collect do |bodypart|
     if array[1] == bodypart
       bodypart
-    else
+    else 
     
